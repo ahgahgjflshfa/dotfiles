@@ -1,0 +1,23 @@
+return {
+  -- "sphamba/smear-cursor.nvim",
+  -- event = "VeryLazy",
+  -- cond = vim.g.neovide == nil,
+  -- opts = {
+  --   -- cursor_color = "#89B4FA",
+  --   never_draw_over_target = true,
+  --   hide_target_hack = true,
+  --
+  --   time_interval = 1,
+  --
+  --   stiffness = 0.9,
+  --   trailing_stiffness = 0.8,
+  --   distance_stop_animating = 0.1,
+  --
+  --   smear_insert_mode = false,
+  --
+  --   -- extras
+  --   -- smear_insert_mode = true,
+  --   -- smear_between_buffers = true,
+  --   -- smear_between_neighbor_lines = true,
+  -- },
+}

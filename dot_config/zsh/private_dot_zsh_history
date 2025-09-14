@@ -329,3 +329,278 @@ r
 : 1757820679:0;chezmoi add ~/.config/hypr
 : 1757820682:0;ls -al
 : 1757820734:0;chezmoi add ~/.config/zsh
+: 1757820739:0;ls -al dot_config
+: 1757820742:0;clear
+: 1757820805:0;chezmoi status
+: 1757820817:0;git add .
+: 1757820832:0;git commit -m "Add hyprland and zsh config"
+: 1757820835:0;clear
+: 1757820838:0;git status
+: 1757820847:0;git remote push origin main
+: 1757820852:0;git push origin main
+: 1757820875:0;sudo pacman -S github-cli
+: 1757820908:0;gh
+: 1757820918:0;gh auth
+: 1757820938:0;gh auth login
+: 1757821043:0;git push origin main
+: 1757821082:0;cd ~/HyDE
+: 1757821085:0;cd Scripts
+: 1757821086:0;ls -al
+: 1757821092:0;./uninstall.sh
+: 1757821102:0;clear
+: 1757821103:0;ls -al
+: 1757821110:0;cd
+: 1757821112:0;ls -al
+: 1757821127:0;rm temp.txt
+: 1757821140:0;cd HyDE/Scripts
+: 1757821142:0;ls -al
+: 1757821149:0;./install.sh
+: 1757821760:0;exit
+: 1757821776:0;rofi -show run
+: 1757821789:0;sudo pacman -Syu rofi
+: 1757821799:0;rofi -show run
+: 1757821812:0;ls -al
+: 1757821819:0;ls -al .local/share/chezmoi
+: 1757821826:0;cd
+: 1757821829:0;cd .config
+: 1757821841:0;cd hypr
+: 1757821842:0;ls -al
+: 1757821848:0;nvim keybindings.conf
+: 1757821936:0;cd ..
+: 1757821938:0;cd kitty
+: 1757821939:0;ls -al
+: 1757821944:0;nvim kitty.conf
+: 1757821988:0;kitten choose-fonts
+: 1757822043:0;clear
+: 1757822193:0;cd .config/rofi
+: 1757822194:0;ls -al
+: 1757822216:0;chezmoi add ~/.config/kitty
+: 1757822232:0;nvim theme.rasi
+: 1757822310:0;ls -al /usr/share/rofi
+: 1757822319:0;ls -al /usr/share/rofi/themes
+: 1757822331:0;rofi --help
+: 1757822334:0;rofi -h
+: 1757822385:0;cd ../hyde
+: 1757822386:0;ll
+: 1757822397:0;cd ../hypr
+: 1757822398:0;ls -al
+: 1757822399:0;clear
+: 1757822400:0;ll
+: 1757822404:0;z
+: 1757822408:0;clear
+: 1757822409:0;ll
+: 1757822422:0;nvim hyprland.conf
+: 1757822444:0;nvim keybindings.conf
+: 1757822494:0;nvim windowrules.conf
+: 1757822514:0;nvim hypridle.conf
+: 1757822538:0;nvim keybindings.conf
+: 1757822549:0;sudo reboot
+: 1757822915:0;locale
+: 1757822944:0;sudo locale-gen
+: 1757822956:0;nvim /etc/locale.gen
+: 1757822985:0;sudo nvim /etc/locale.gen
+: 1757822996:0;clear
+: 1757823003:0;sudo locale-gen
+: 1757823016:0;locale
+: 1757823032:0;ll /etc/locale.conf
+: 1757823040:0;cat /etc/locale.conf
+: 1757823053:0;sudo rm /etc/locale.conf
+: 1757823054:0;clear
+: 1757823060:0;rofi -show run
+: 1757823072:0;clear
+: 1757823073:0;exit
+: 1757823090:0;nvim .config/hypr/keybindings.conf
+: 1757823100:0;clear
+: 1757823550:0;sudo pacman -S timeshift
+: 1757823705:0;timeshift
+: 1757823889:0;timeshift-launcher
+: 1757823936:0;sudo pacman -S xorg-xhost
+: 1757823941:0;clear
+: 1757823944:0;timeshift-launcher
+: 1757824372:0;shutdown now
+: 1757828121:0;hydectl theme select
+: 1757828483:0;sudo shutdown now
+: 1757838808:0;clear
+: 1757838809:0;waybar
+: 1757838814:0;clear
+: 1757838838:0;ls -al
+: 1757839055:0;ll .config
+: 1757839062:0;cd .config/waybar
+: 1757839063:0;clear
+: 1757839064:0;ls -al
+: 1757839190:0;cd ..
+: 1757839192:0;ls -al
+: 1757839208:0;cat ghostty/config
+: 1757839215:0;clear
+: 1757839235:0;ll
+: 1757839251:0;sudo pacman -Rs code
+: 1757839263:0;rm -rf "Code - OSS/"
+: 1757839264:0;ll
+: 1757839636:0;ls -al chezmoi
+: 1757839643:0;ls -al hy
+: 1757839646:0;ls -al hyde
+: 1757839665:0;chezmoi status
+: 1757839983:0;cd ..
+: 1757840010:0;git clone https://github.com/kamlendras/waybar-macos-sequoia.git
+: 1757840034:0;chezmoi add ~/.config/waybar
+: 1757840057:0;chezmoi git add .
+: 1757840061:0;ll
+: 1757840066:0;chezmoi status
+: 1757840143:0;chezmoi managed
+: 1757840207:0;chezmoi git --commit -m "Add more configs"
+: 1757840267:0;git commit -m "Add kitty and waybar configs"
+: 1757840303:0;cd .local/share/chezmoi
+: 1757840304:0;ll
+: 1757840309:0;git commit -
+: 1757840322:0;git commit -m "Add kitty and waybar configs"
+: 1757840332:0;git push origin main
+: 1757840366:0;git remote show
+: 1757840399:0;cd
+: 1757840414:0;cd .config/waybar
+: 1757840415:0;ll
+: 1757840505:0;cd
+: 1757840530:0;mv ~/.config/waybar ~/.config/waybar.bak
+: 1757840548:0;cp -r waybar-macos-sequoia ~/.config/waybar
+: 1757840596:0;ls -al .config/waybar
+: 1757840989:0;ll
+: 1757840992:0;rm waybar-macos-sequoia
+: 1757840998:0;rm -rf waybar-macos-sequoia
+: 1757841079:0;rm -rf .config/waybar
+: 1757841101:0;mv .config/waybar.bak .config/waybar/
+: 1757841105:0;ll .config
+: 1757841118:0;waybar reload
+: 1757841125:0;waybar --help
+: 1757841161:0;cd .config/waybar
+: 1757841162:0;ll
+: 1757841178:0;sudo pacman -S fnm
+: 1757841215:0;yay -S fnm
+: 1757841232:0;clear
+: 1757841233:0;cargo
+: 1757841248:0;sudo pacman -S rustup
+: 1757841259:0;rustup --help
+: 1757841286:0;rustup toolchain install stable
+: 1757841311:0;ls -al
+: 1757841317:0;clear
+: 1757841321:0;rustup default stable
+: 1757841326:0;rustup show
+: 1757841329:0;clear
+: 1757841334:0;yay -S fnm
+: 1757841813:0;git clone https://github.com/TheFrankyDoll/win10-style-waybar
+: 1757841817:0;ll
+: 1757841840:0;mv win10-style-waybar ~/win10-style-waybar
+: 1757841845:0;ll ~/
+: 1757841855:0;ll ~/win10-style-waybar
+: 1757841861:0;cd ..
+: 1757841887:0;mv .config/waybar .config/waybar.bak
+: 1757841905:0;cp win10-style-waybar/waybar .config/waybar
+: 1757841920:0;cp -r win10-style-waybar/waybar .config/waybar
+: 1757841927:0;ll .config/waybar
+: 1757841989:0;waybar
+: 1757842005:0;clear
+: 1757842236:0;hyde-shell waybar --select
+: 1757842442:0;hydectl theme select
+: 1757842496:0;hydectl config
+: 1757842564:0;hyde-shell waybar --select
+: 1757842652:0;clear
+: 1757848683:0;fnm --help
+: 1757848715:0;fnm i
+: 1757848731:0;fnm install latest-lts
+: 1757848739:0;fnm install latest
+: 1757848889:0;fnm install --help
+: 1757848909:0;fnm install --lts
+: 1757848923:0;fnm default lts
+: 1757848925:0;fnm default
+: 1757848930:0;fnm default 22
+: 1757848936:0;fnm default
+: 1757848949:0;fnm current
+: 1757848954:0;fnm env
+: 1757848968:0;node
+: 1757848974:0;clear
+: 1757848981:0;node -v
+: 1757848983:0;clear
+: 1757848986:0;fnm -h
+: 1757848994:0;fnm env
+: 1757849012:0;$PATH
+: 1757849017:0;echo $PATH
+: 1757849092:0;echo $PATH | tr ':' '\n'
+: 1757849139:0;ll .config/zsh/.zshenv
+: 1757849150:0;cat .config/zsh/.zshenv
+: 1757849190:0;cat .zshenv
+: 1757849223:0;eval "$(fnm env --use-on-cd --shell zsh)"
+: 1757849236:0;cat .zshrc
+: 1757849248:0;cat .zshenv
+: 1757849250:0;ll
+: 1757849253:0;ls -al
+: 1757849270:0;nvim .zshenv
+: 1757849321:0;nvim .config/zsh/.zshrc
+: 1757849371:0;echo $PATH | tr ':' '\n'
+: 1757849401:0;nvim .zshenv
+: 1757849427:0;nvim .config/zsh/.zshrc
+: 1757849451:0;node
+: 1757849454:0;clear
+: 1757849464:0;ll
+: 1757849468:0;nvim .zshenv
+: 1757849487:0;cd .config/zsh
+: 1757849488:0;ll
+: 1757849490:0;ls -al
+: 1757849507:0;nvim user.zsh
+: 1757849549:0;node
+: 1757849556:0;clear
+: 1757850257:0;sudo pacman -S fzf
+: 1757850261:0;clear
+: 1757850267:0;sudo pacman -S yazi
+: 1757850285:0;sudo pacman -S lazygit claude-code
+: 1757850289:0;sudo pacman -S lazygit
+: 1757850299:0;yay -S claude-code
+: 1757850397:0;npm install -g @anthropic-ai/claude-code
+: 1757850411:0;clear
+: 1757850442:0;yay -S claude-code-router
+: 1757850476:0;clear
+: 1757850508:0;npm install -g @musistudio/claude-code-router
+: 1757850866:0;ll /mnt
+: 1757850868:0;ls -al /mnt
+: 1757850926:0;sudo pacman -S udiskie
+: 1757850943:0;udiskie --help
+: 1757851003:0;clear
+: 1757851016:0;ls -al .config/hypr/
+: 1757851027:0;cd .config/hypr
+: 1757851029:0;ll
+: 1757851029:0;clear
+: 1757851030:0;ls -la
+: 1757851045:0;nvim userprefs.conf
+: 1757851059:0;nvim workflows.conf
+: 1757851078:0;nvim windowrules.conf
+: 1757851114:0;nvim hyprland.conf
+: 1757851126:0;nvim keybindings.conf
+: 1757851196:0;ls -al workflows
+: 1757851211:0;nvim workflows/default.conf
+: 1757851233:0;nvim pyprland.toml
+: 1757851312:0;nvim keybindings.conf
+: 1757851337:0;nvim autostart.conf
+: 1757851373:0;nvim hyprland.conf
+: 1757851387:0;rm autostart.conf
+: 1757851390:0;nvim userprefs.conf
+: 1757851475:0;clear
+: 1757851482:0;hyprctl reload
+: 1757851811:0;lsblk
+: 1757851820:0;fdisk -l
+: 1757851826:0;sudo fdisk -l
+: 1757852094:0;nvim
+: 1757852118:0;sudo pacman -S mcphub
+: 1757852130:0;yay -S mcphub
+: 1757852171:0;clear
+: 1757852172:0;nvim
+: 1757852322:0;clear
+: 1757852325:0;yazi
+: 1757852333:0;clear
+: 1757852347:0;chezmoi add ~/.config/nvim
+: 1757852356:0;chezmoi cd
+: 1757852372:0;chezmoi add ~/.config/yazi
+: 1757852375:0;clear
+: 1757852379:0;git status
+: 1757852390:0;cd dotfiles
+: 1757852391:0;ll
+: 1757852405:0;cd dot_config
+: 1757852408:0;ll
+: 1757852412:0;cd ..
+: 1757852657:0;chezmoi re-add
