@@ -1,0 +1,331 @@
+: 1757767102:0;ls -al
+: 1757767104:0;clear
+: 1757767105:0;ls -al
+: 1757767113:0;ls -al .config
+: 1757767123:0;ls -al .config/hypr
+: 1757767151:0;nvim .config/hypr/hyprland.conf
+: 1757767412:0;clear
+: 1757767441:0;exit
+: 1757767537:0;pacman -Q | grep rofi
+: 1757767571:0;clear
+: 1757767573:0;exit
+: 1757767626:0;nvim .config/hypr/hypridle.conf
+: 1757767779:0;clear
+: 1757767782:0;rofi
+: 1757767810:0;clear
+: 1757809079:0;exit
+: 1757809102:0;rofi -h
+: 1757809114:0;rofi
+: 1757809145:0;locale -a
+: 1757809189:0;locale-gen
+: 1757809207:0;sudo nvim /etc/locale.conf
+: 1757809223:0;rofi
+: 1757809243:0;sudo pacman -Rs rofi
+: 1757809250:0;clear
+: 1757809255:0;sudo pacman -Syu
+: 1757809276:0;clear
+: 1757809281:0;sudo pacman -S rofi
+: 1757809288:0;clear
+: 1757809290:0;rofi
+: 1757809309:0;sudo locale-gen
+: 1757809363:0;rofi -show run
+: 1757809386:0;clear
+: 1757809399:0;ls -al
+: 1757809407:0;ls -al .config
+: 1757809420:0;ls -al .config/rofi
+: 1757809461:0;clear
+: 1757809476:0;pacman -Q | grep meson
+: 1757809485:0;pacman -Q | ninja
+: 1757809491:0;clear
+: 1757809503:0;pacman -Q | grep ninja
+: 1757809512:0;sudo pacman -Q
+: 1757809570:0;sudo pacman -S xorg-server
+: 1757809573:0;clear
+: 1757809628:0;sudo pacman -Rs rofi
+: 1757809630:0;clear
+: 1757809657:0;pacman -Q | grep pkg
+: 1757809659:0;clear
+: 1757809674:0;yay -Q | grep wofi
+: 1757809675:0;clear
+: 1757809691:0;yay -Rs wofi
+: 1757809694:0;clear
+: 1757809698:0;sudo pacman -S wofi
+: 1757809700:0;clear
+: 1757809704:0;wofi
+: 1757809711:0;wofi --show
+: 1757809771:0;wofi -h
+: 1757809808:0;wofi --show=run
+: 1757809822:0;clear
+: 1757809825:0;exit
+: 1757809837:0;clear
+: 1757809845:0;cd .config
+: 1757809846:0;ls -a,l
+: 1757809848:0;ls -al
+: 1757809849:0;clear
+: 1757809850:0;nvim
+: 1757809853:0;clear
+: 1757809855:0;ls
+: 1757809856:0;ls -al
+: 1757809872:0;rm -rf rofi
+: 1757809879:0;ls -al nvim
+: 1757809883:0;ls -al vim
+: 1757809889:0;vim
+: 1757809908:0;clear
+: 1757809912:0;af
+: 1757809916:0;clear
+: 1757809925:0;ls -al
+: 1757809960:0;nvim zsh
+: 1757809975:0;cd zsh
+: 1757809977:0;ls -al
+: 1757809986:0;cd ..
+: 1757809987:0;cd
+: 1757809992:0;nvim .zshrc
+: 1757810000:0;nvim .zshenv
+: 1757810035:0;wofi --show=run
+: 1757810067:0;ls
+: 1757810073:0;clear
+: 1757810075:0;exit
+: 1757810087:0;cd .config
+: 1757810088:0;ls -al
+: 1757810099:0;cd hypr
+: 1757810101:0;ls -al
+: 1757810102:0;clear
+: 1757810103:0;ls -al
+: 1757810139:0;nvim hyprland.conf
+: 1757810193:0;cd .config
+: 1757810196:0;cd hypr
+: 1757810198:0;ls -al
+: 1757810312:0;nvim keybindings.conf
+: 1757810398:0;nvim userprefs.conf
+: 1757810442:0;nvim workflows.conf
+: 1757810477:0;nvim monitors.conf
+: 1757810500:0;nvim hyprlock.conf
+: 1757810608:0;clear
+: 1757810719:0;hyprctl reload
+: 1757810726:0;clear
+: 1757810731:0;exit
+: 1757810739:0;nvim
+: 1757810764:0;nvim hyprland.conf
+: 1757810795:0;nvim userprefs.conf
+: 1757810923:0;clear
+: 1757810925:0;sudo reboot
+: 1757811048:0;ls -al .config/hyde
+: 1757811054:0;cd .config/hyde
+: 1757811056:0;ls -al
+: 1757811062:0;ls -al wallbash
+: 1757811147:0;ls -al wallbash/theme
+: 1757811154:0;ls -al wallbash/always
+: 1757811163:0;ls -al wallbash/scripts
+: 1757811167:0;clear
+: 1757811169:0;discord
+: 1757811177:0;clear
+: 1757811186:0;nvim 
+: 1757811193:0;cd ../hypr
+: 1757811194:0;ls -al
+: 1757811418:0;vim keybindings.conf
+: 1757811456:0;nvim keybindings.conf
+: 1757811496:0;hyprctl reload
+: 1757811511:0;exit
+: 1757811529:0;ls -al .config
+: 1757811535:0;cd .config
+: 1757811548:0;fastfetch
+: 1757811566:0;cd hypr
+: 1757811567:0;ls -al
+: 1757811690:0;nvim ~/.zshrc
+: 1757811722:0;nvim ~/.zshenv
+: 1757811805:0;cd ..
+: 1757811809:0;cd zsh
+: 1757811810:0;ls -al
+: 1757811815:0;nvim .zshrc
+: 1757811831:0;eza
+: 1757811834:0;clear
+: 1757811835:0;ls -al
+: 1757811852:0;ls -al ../starship
+: 1757811922:0;nvim user.zsh
+: 1757811973:0;nvim prompt.zsh
+: 1757812038:0;exit
+: 1757812148:0;pacman -Q | grep nerd
+: 1757812186:0;sudo pacman -S ttf-firacode-nerd
+: 1757812195:0;clear
+: 1757812231:0;yay -S zsh-theme-powerlevel10k
+: 1757812340:0;ls -al
+: 1757812674:0;cp .config/zsh/.zshrc .config/zsh/.zshrc.bak
+: 1757812701:0;p10k configure
+: 1757812745:0;clear
+: 1757812763:0;cd .config
+: 1757812766:0;cd zsh
+: 1757812767:0;ls -al
+: 1757812778:0;nvim prompt.zsh
+: 1757812798:0;p10k configure
+: 1757812881:0;clear
+: 1757812907:0;ls -al
+: 1757812952:0;nvim .zshrc
+: 1757813052:0;exit
+: 1757813302:0;nvim plugin.zsh
+: 1757813335:0;z nvim
+: 1757813339:0;clear
+: 1757813348:0;nvim .zshrc
+: 1757813447:0;z .config
+: 1757813450:0;clear
+: 1757813455:0;cd .config
+: 1757813457:0;ls -al
+: 1757813459:0;nvim fastfetch
+: 1757813479:0;rm -rf starship
+: 1757813489:0;sudo pacman -Rs starship
+: 1757813497:0;ls -al
+: 1757813503:0;code
+: 1757813526:0;pacman -Q | grep code
+: 1757813541:0;sudo pacman -Rs code
+: 1757813549:0;clear
+: 1757813550:0;ls -al
+: 1757813567:0;rm -rf Code
+: 1757813569:0;ls -al
+: 1757813580:0;rm -rf 'Code - OSS/'
+: 1757813582:0;ls -al
+: 1757813599:0;sudo pacman -Rs kitty
+: 1757813602:0;clear
+: 1757813603:0;ls -al
+: 1757813605:0;rm -rf kitty
+: 1757813615:0;ls -al
+: 1757813629:0;vim
+: 1757813668:0;clear
+: 1757813674:0;cd fastfetch
+: 1757813675:0;ls -al
+: 1757813685:0;ls -al logo
+: 1757813697:0;fastfetch
+: 1757813701:0;clear
+: 1757813708:0;ls -al
+: 1757813712:0;nvim config.jsonc
+: 1757813756:0;fastfetch
+: 1757813844:0;lsblk
+: 1757813848:0;clear
+: 1757813863:0;ls -al
+: 1757813864:0;clear
+: 1757813889:0;clear\
+r
+: 1757813889:0;clear
+: 1757813987:0;cd .config
+: 1757813989:0;ls -al
+: 1757814001:0;cd ghostty
+: 1757814003:0;ls -al
+: 1757814008:0;nvim config
+: 1757814465:0;cd .config
+: 1757814468:0;cd hypr
+: 1757814469:0;ls -al
+: 1757814470:0;clear
+: 1757814471:0;ls -al
+: 1757814500:0;nvim keybindings.conf
+: 1757816313:0;ls -al .config
+: 1757816319:0;cd .config
+: 1757816322:0;mkdir wofi
+: 1757816324:0;ls -al
+: 1757816326:0;clear
+: 1757816328:0;cd wofi
+: 1757816659:0;clear
+: 1757817428:0;nvim keybindings.conf
+: 1757817529:0;nvim config.css
+: 1757818201:0;hydectl theme import --name "Catppuccin-Macchiato" --url https://github.com/deepu105/hyde-theme-catppuccin-macchiato
+: 1757818330:0;hydectl theme select
+: 1757818355:0;hydectl theme set "Catppucin Macchiato"
+: 1757818436:0;sudo pacman -S rofi
+: 1757818447:0;mkdir .config/rofi
+: 1757818456:0;cd .config/rofi
+: 1757818522:0;hydectl theme set "Catppucin Macchiato"
+: 1757818545:0;rofi --show run
+: 1757818556:0;rofi -show run
+: 1757818579:0;sudo pacman -Rs wofi
+: 1757818582:0;clear
+: 1757818589:0;cd ..
+: 1757818595:0;rm -rf wofi
+: 1757818641:0;rofi -show drun
+: 1757818653:0;hydectl theme select
+: 1757818675:0;clear
+: 1757818679:0;rofi -show run
+: 1757818696:0;cd .config/rofi
+: 1757818698:0;ls -al
+: 1757818731:0;clear
+: 1757818757:0;cd .config/hypr/
+: 1757818759:0;ls -al
+: 1757818763:0;nvim keybindings.conf
+: 1757818848:0;$scrPath
+: 1757818850:0;clear
+: 1757818861:0;nvim hyprl
+: 1757818869:0;nvim hyprland.conf
+: 1757818909:0;nvim keybindings.conf
+: 1757819103:0;cd ..
+: 1757819111:0;sudo pacman -S chezmoi
+: 1757819125:0;chezmoi init
+: 1757819132:0;ls -al
+: 1757819135:0;cd ..
+: 1757819137:0;ls -al
+: 1757819139:0;clear
+: 1757819142:0;ls -al .local
+: 1757819167:0;ls -al .local/share/chezmoi
+: 1757819191:0;cd ~/.local/share/chezmoi
+: 1757819232:0;reboot
+: 1757819297:0;hydectl theme select
+: 1757819307:0;clear
+: 1757819311:0;waybar
+: 1757819360:0;hydectl reload
+: 1757819414:0;clear
+: 1757819419:0;ls -al
+: 1757819423:0;cd HyDE
+: 1757819424:0;ls -al
+: 1757819429:0;cd Scripts
+: 1757819430:0;ls -al
+: 1757819437:0;./uninstall.sh
+: 1757819457:0;clear
+: 1757819467:0;cd ./local/share/chezomi
+: 1757819481:0;cd ./.local/share/chezmoi
+: 1757819498:0;cd ~/.local/share/chezmoi
+: 1757819499:0;ls -al
+: 1757819555:0;git remote add origin hhtps://github.com/ahgahgjflshfa/dotfiles.git
+: 1757819566:0;git add -a
+: 1757819574:0;git add .
+: 1757819587:0;git commit -m "Initial Commit"
+: 1757819613:0;git config --global user.email "aaa12345.59487@gmail.com"
+: 1757819626:0;git config --global user.name "ahgahgjflshfa"
+: 1757819629:0;git commit -m "Initial Commit"
+: 1757819668:0;git config --global branch
+: 1757819731:0;git config -global init.defaultBranch main
+: 1757819741:0;git config --global init.defaultBranch main
+: 1757819750:0;git branch -m master main
+: 1757819753:0;clear
+: 1757819764:0;git push -u origin main
+: 1757819783:0;git push origin main
+: 1757819884:0;sudo reboot
+: 1757819990:0;waybar
+: 1757819998:0;clear
+: 1757820013:0;nvim .config/hypr/keybindings.conf
+: 1757820040:0;clear
+: 1757820043:0;cd ~/.local/share/chezmoi
+: 1757820056:0;git --version
+: 1757820070:0;git push
+: 1757820077:0;git remote add origin hhtps://github.com/ahgahgjflshfa/dotfiles.git
+: 1757820115:0;git push -u origin main
+: 1757820165:0;sudo pacman -Syu git
+: 1757820179:0;git push -u origin main
+: 1757820193:0;git push origin main
+: 1757820303:0;git remote remove origin
+: 1757820344:0;git remote add origin https://github.com/ahgahgjflshfa/dotfiles.git
+: 1757820348:0;git push -u origin main
+: 1757820392:0;git pull
+: 1757820401:0;git push
+: 1757820406:0;git push origin main
+: 1757820413:0;rm -rf
+: 1757820414:0;ls -al
+: 1757820420:0;rm -rf .git
+: 1757820426:0;chezmoi init
+: 1757820433:0;git remote add origin https://github.com/ahgahgjflshfa/dotfiles.git
+: 1757820437:0;git push origin main
+: 1757820516:0;git status
+: 1757820530:0;git add .
+: 1757820533:0;git status
+: 1757820542:0;git branch -a
+: 1757820572:0;clear
+: 1757820576:0;ls -al
+: 1757820583:0;rm jd
+: 1757820604:0;git commit -m ""
+: 1757820679:0;chezmoi add ~/.config/hypr
+: 1757820682:0;ls -al
+: 1757820734:0;chezmoi add ~/.config/zsh
