@@ -1,0 +1,6 @@
+neovim-bin = "/usr/bin/nvim"
+title-hidden = true
+
+[font]
+normal = ["Firacode Nerd Font"]
+size = 14

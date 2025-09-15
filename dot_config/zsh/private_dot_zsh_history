@@ -604,3 +604,108 @@ r
 : 1757852408:0;ll
 : 1757852412:0;cd ..
 : 1757852657:0;chezmoi re-add
+: 1757852718:0;git add .
+: 1757852732:0;git commit -m "Add nvim and yazi configs"
+: 1757852742:0;git push origin main
+: 1757852746:0;clear
+: 1757853334:0;exit
+: 1757905817:0;rofi -show run
+: 1757905958:0;cd .config/hypr
+: 1757905960:0;nvim key
+: 1757905964:0;nvim keybindings.conf
+: 1757909457:0;date
+: 1757909463:0;date -u
+: 1757909474:0;tzselect
+: 1757909502:0;date
+: 1757909616:0;nvim .profile
+: 1757909642:0;logout
+: 1757909665:0;date
+: 1757909668:0;clear
+: 1757909682:0;rm .profile
+: 1757909696:0;sudo dpkg-reconfigure tzdata
+: 1757909733:0;hwclock --show
+: 1757909739:0;sudo hwclock --show
+: 1757909785:0;timedatectl
+: 1757909824:0;timedatectl status
+: 1757909835:0;timedatectl list-timezones
+: 1757909875:0;timedatectl set-timezone Asia/Taipei
+: 1757909885:0;timedatectl
+: 1757909901:0;clear
+: 1757909962:0;cd .config
+: 1757909965:0;ll
+: 1757909966:0;clear
+: 1757909966:0;ll
+: 1757911517:0;cd
+: 1757911518:0;clear
+: 1757911548:0;git clone https://github.com/catppuccin/grub.git && cd grub
+: 1757911552:0;ll
+: 1757911553:0;clear
+: 1757911568:0;sudo cp -r src/* /usr/share/gurb/themes/
+: 1757911585:0;sudo cp -r src/* /usr/share/grub/themes/
+: 1757911587:0;:w
+: 1757911590:0;clear
+: 1757911598:0;ll /usr/share/grub/
+: 1757911610:0;nvim /etc/default/grub
+: 1757911663:0;sudo nvim /etc/default/grub
+: 1757911709:0;nvim /etc/default/grub
+: 1757911723:0;sudo nvim /etc/default/grub
+: 1757911756:0;sudo fdisk -l
+: 1757911774:0;mount /dev/nvme0n1 /mnt
+: 1757911780:0;ls /mnt
+: 1757911790:0;sudo mount /dev/nvme0n1 /mnt
+: 1757911817:0;sudo mount /dev/nvme0n1p1 /mnt
+: 1757911845:0;ls -al /boot
+: 1757911851:0;ls -al /boot/grub
+: 1757911870:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1757911876:0;clear
+: 1757911882:0;umount /mnt
+: 1757911887:0;sudo umount /mnt
+: 1757911888:0;clear
+: 1757911894:0;sudo reboot
+: 1757911982:0;sudo nvim /etc/default/grub
+: 1757912051:0;sudo grub-mkconfig -o /boot/grub/grub.cfg
+: 1757912068:0;sudo reboot
+: 1757912885:0;nvim .config/hypr/keybindings.conf
+: 1757913094:0;pacman -Q | grep python
+: 1757913136:0;pip list
+: 1757913146:0;sudo pacman -S uv
+: 1757913190:0;sudo pacman -S qutebrowser
+: 1757913224:0;sudo pacman -S python-adblock
+: 1757913228:0;clear
+: 1757913231:0;qutebrowser
+: 1757914972:0;clear
+: 1757914994:0;nvim .config/hypr/keybindings.conf
+: 1757915048:0;sudo pacman -S neovide
+: 1757915151:0;clear
+: 1757915152:0;neovide
+: 1757915169:0;clear
+: 1757915274:0;mkdir .config/neovide
+: 1757915296:0;nvim .config/neovide/config.toml
+: 1757915400:0;neovide
+: 1757915411:0;nvim .config/neovide/config.toml
+: 1757915422:0;neovide
+: 1757915455:0;clear
+: 1757915462:0;nvim .config/hypr/keybindings.conf
+: 1757915472:0;clear
+: 1757915477:0;echo $EDITOR
+: 1757915518:0;nvim .config/zsh/user.zsh
+: 1757915536:0;cd .config
+: 1757915538:0;ll
+: 1757915579:0;cd kitty
+: 1757915581:0;ls -al
+: 1757915585:0;nvim kitty.conf
+: 1757915597:0;nvim hyde.conf
+: 1757915608:0;cd ..
+: 1757915609:0;ll
+: 1757915612:0;cd zsh
+: 1757915615:0;ls -al
+: 1757915620:0;nvim .zshrc
+: 1757915678:0;sudo pacman -S eza
+: 1757915688:0;eza
+: 1757915693:0;eza -l
+: 1757915696:0;clear
+: 1757915700:0;nvim .zshrc
+: 1757915808:0;clear
+: 1757915834:0;chezmoi add ~/.config/neovide/
+: 1757915839:0;cd ..
+: 1757915843:0;chezmoi re-add
