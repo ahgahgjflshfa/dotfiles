@@ -29,3 +29,5 @@ if [[ ${HYDE_ZSH_NO_PLUGINS} != "1" ]]; then
 fi
 
 eval "$(fnm env --use-on-cd --shell bash)"
+
+eval "$(zoxide init zsh)"
