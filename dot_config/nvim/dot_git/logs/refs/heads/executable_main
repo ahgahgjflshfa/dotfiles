@@ -1,2 +1,0 @@
-0000000000000000000000000000000000000000 7515b2fb77c0599b6b1083a90ff30d6666d7840d ahgahgjflshfa <aaa12345.59487@gmail.com> 1757307493 +0800	commit (initial): Initial commit
-7515b2fb77c0599b6b1083a90ff30d6666d7840d 47b7d687ab0a5486bf2b68b327f19fce3c1cb5f3 ahgahgjflshfa <aaa12345.59487@gmail.com> 1757309003 +0800	commit: Change some plugins to start on lsp attach.
