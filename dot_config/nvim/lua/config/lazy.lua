@@ -44,22 +44,23 @@ require("lazy").setup({
     -- { import = "lazyvim.plugins.extras.ui.smear-cursor" },
     { import = "lazyvim.plugins.extras.ui.treesitter-context" },
 
-    -- uti
+    -- util
     { import = "lazyvim.plugins.extras.util.mini-hipatterns" },
     { import = "lazyvim.plugins.extras.util.project" },
 
     -- languages
-    { import = "lazyvim.plugins.extras.lang.clangd" },
-    { import = "lazyvim.plugins.extras.lang.go" },
-    { import = "lazyvim.plugins.extras.lang.rust" },
-    { import = "lazyvim.plugins.extras.lang.typescript" },
-    { import = "lazyvim.plugins.extras.lang.markdown" },
-    { import = "lazyvim.plugins.extras.lang.toml" },
-    { import = "lazyvim.plugins.extras.lang.json" },
-    { import = "lazyvim.plugins.extras.lang.sql" },
+    -- languages should be installed through :LazyExtras command and not installed from script
+    -- { import = "lazyvim.plugins.extras.lang.clangd" },
+    -- { import = "lazyvim.plugins.extras.lang.go" },
+    -- { import = "lazyvim.plugins.extras.lang.rust" },
+    -- { import = "lazyvim.plugins.extras.lang.typescript" },
+    -- { import = "lazyvim.plugins.extras.lang.markdown" },
+    -- { import = "lazyvim.plugins.extras.lang.toml" },
+    -- { import = "lazyvim.plugins.extras.lang.json" },
+    -- { import = "lazyvim.plugins.extras.lang.sql" },
 
     -- dap
-    { import = "lazyvim.plugins.extras.dap.core" },
+    -- { import = "lazyvim.plugins.extras.dap.core" },
     -- { import = "lazyvim.plugins.extras.dap.nlua" },
 
     -- import/override with your plugins

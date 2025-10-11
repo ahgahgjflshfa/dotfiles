@@ -1,11 +1,11 @@
 return {
   "hrsh7th/nvim-cmp",
   optional = true,
-  -- dependencies = {
-  --   { "hrsh7th/cmp-emoji", lazy = true },
-  --   { "hrsh7th/cmp-nvim-lua", lazy = true },
-  --   { "hrsh7th/cmp-nvim-lsp-signature-help", lazy = true },
-  -- },
+  dependencies = {
+    { "hrsh7th/cmp-emoji", lazy = true },
+    { "hrsh7th/cmp-nvim-lua", lazy = true },
+    { "hrsh7th/cmp-nvim-lsp-signature-help", lazy = true },
+  },
   opts = function(_, opts)
     local cmp = require("cmp")
 
@@ -22,8 +22,8 @@ return {
       { name = "luasnip" },
       { name = "path" },
 
-      -- { name = "nvim_lua" },
-      -- { name = "nvim_lsp_signature_help" },
+      { name = "nvim_lua" },
+      { name = "nvim_lsp_signature_help" },
       { name = "buffer" },
       { name = "emoji" },
 

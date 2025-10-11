@@ -82,13 +82,11 @@ return {
             size = { width = 0.2 },
             -- pinned = true,
           },
-          -- {
-          --   title = "Outline",
-          --   ft = "Outline",
-          --   pinned = true,
-          --   open = "Outline",
-          --   size = { width = 0.2 },
-          -- },
+          {
+            title = "OpenCode",
+            ft = "opencode_terminal",
+            size = { width = 0.35 },
+          },
         },
 
         -- Resize hotkeys inside edgy windows
