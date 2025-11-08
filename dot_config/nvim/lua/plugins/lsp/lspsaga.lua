@@ -9,12 +9,6 @@ return {
       lightbulb = {
         enable = false,
       },
-      -- implement = {
-      --   enable = true,
-      --   sign = false,
-      --   virtual_text = true,
-      --   priority = 100,
-      -- },
     })
   end,
 }

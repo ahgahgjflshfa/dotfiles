@@ -1,2 +1,5 @@
 **/.zcompdump*
 **/.zsh_history
+.claude-code-router/config.json
+.claude-code-router/logs
+.claude-code-router/.claude-code-router.pid

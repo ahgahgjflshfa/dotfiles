@@ -28,14 +28,17 @@ require("lazy").setup({
 
     -- Extras
     -- coding
-    { import = "lazyvim.plugins.extras.coding.luasnip" },
+    -- { import = "lazyvim.plugins.extras.coding.luasnip" },
     { import = "lazyvim.plugins.extras.coding.mini-surround" },
-    { import = "lazyvim.plugins.extras.coding.nvim-cmp" },
+    -- { import = "lazyvim.plugins.extras.coding.nvim-cmp" },
 
     -- editors
     { import = "lazyvim.plugins.extras.editor.dial" },
     { import = "lazyvim.plugins.extras.editor.outline" },
     { import = "lazyvim.plugins.extras.editor.telescope" },
+
+    -- ai
+    { import = "lazyvim.plugins.extras.ai.sidekick" },
 
     -- formatting
     -- { import = "lazyvim.plugins.extras.formatting.prettier" },
@@ -65,6 +68,7 @@ require("lazy").setup({
 
     -- import/override with your plugins
     { import = "plugins" },
+    { import = "plugins.ai" },
     { import = "plugins.dap" },
     { import = "plugins.editor" },
     { import = "plugins.lsp" },
@@ -80,7 +84,7 @@ require("lazy").setup({
     version = false, -- always use the latest git commit
     -- version = "*", -- try installing the latest stable version for plugins that support semver
   },
-  install = { colorscheme = { "catpuccin" } },
+  install = { colorscheme = { "catppuccin" } },
   checker = {
     enabled = true, -- check for plugin updates periodically
     notify = false, -- notify on update
@@ -97,10 +101,6 @@ require("lazy").setup({
         "tohtml",
         "tutor",
         "zipPlugin",
-
-        "blink.cmp",
-        "blink.compat",
-        "tokyonight",
       },
     },
   },

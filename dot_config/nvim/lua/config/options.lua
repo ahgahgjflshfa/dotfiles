@@ -22,4 +22,8 @@ vim.g.lazyvim_cmp = false
 -- change default shell to nushell
 -- vim.opt.shell = "powershell"
 
+-- what is this?
 vim.o.scrolloff = 5
+
+-- default border for all floating windows
+-- vim.o.winborder = "rounded"

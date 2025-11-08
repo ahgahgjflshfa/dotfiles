@@ -24,13 +24,6 @@ vim.keymap.set("n", "<leader>iz", function()
   end
 end, { desc = "Peak Folded Lines" })
 
-vim.keymap.set(
-  "n",
-  "<leader>if",
-  "<cmd>Lspsaga finder def+ref+imp<CR>",
-  { desc = "Find references" }
-)
-
 -- Conflict with GlazeWM
 vim.keymap.set("n", "<C-A-j>", ":m .+1<CR>==")
 vim.keymap.set("n", "<C-A-k>", ":m .-2<CR>==")

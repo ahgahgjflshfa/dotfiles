@@ -1,0 +1,49 @@
+{
+    "LOG": false,
+    "LOG_LEVEL": "debug",
+    "CLAUDE_PATH": "",
+    "HOST": "127.0.0.1",
+    "PORT": 3456,
+    "APIKEY": "",
+    "API_TIMEOUT_MS": "600000",
+    "PROXY_URL": "",
+    "transformers": [],
+    "Providers": [
+        {
+            "name": "openrouter",
+            "api_base_url": "https://openrouter.ai/api/v1/chat/completions",
+            "api_key": "API_KEY_HERE",
+            "models": [
+                "qwen/qwen3-coder",
+                "x-ai/grok-code-fast-1",
+                "deepseek/deepseek-r1-0528",
+                "openai/gpt-oss-120b",
+                "google/gemini-2.5-flash",
+                "meta-llama/llama-4-scout"
+            ],
+            "transformer": {
+                "use": [
+                    "openrouter"
+                ]
+            }
+        }
+    ],
+    "StatusLine": {
+        "enabled": false,
+        "currentStyle": "default",
+        "default": {
+            "modules": []
+        },
+        "powerline": {
+            "modules": []
+        }
+    },
+    "Router": {
+        "default": "openrouter,x-ai/grok-code-fast-1",
+        "background": "",
+        "think": "openrouter,google/gemini-2.5-flash",
+        "longContext": "openrouter,meta-llama/llama-4-scout",
+        "longContextThreshold": 60000,
+        "webSearch": "openrouter,openai/gpt-oss-120b"
+    }
+}
